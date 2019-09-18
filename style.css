@@ -1,0 +1,96 @@
+body {
+  background-color: linen;
+}
+
+h2, {
+  color: maroon;
+  margin-left: 40px;
+}
+
+img {
+	width: 500px;
+}
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input, label {
+    margin: .4rem 0;
+}
+
+.preference {
+    display: flex;
+    justify-content: space-between;
+    width: 8%;
+}
+
+form.form-example {
+    display: table;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+.output {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+#exciting {
+    background: linear-gradient(to bottom, #ffe8d4, #f69d3c);
+    border: 1px solid #696969;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px black;
+}
+
+#exciting:before {
+    content: "ℹ️";
+    margin-right: 5px;
+}
+
+label,
+footer {
+    font-family: sans-serif;
+}
+
+label {
+    font-size: 1rem;
+    padding-right: 10px;
+}
+
+select {
+    font-size: .9rem;
+    padding: 2px 5px;
+}
+
+footer {
+    font-size: .8rem;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+.voetbal {
+    display: flex;
+    justify-content: space-between;
+    width: 3%;
+}
+
+.dagen {
+    display: flex;
+    justify-content: space-between;
+    width: 6%;
+}
